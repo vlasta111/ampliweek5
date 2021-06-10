@@ -1,0 +1,227 @@
+
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body { 
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	margin: 0; 
+	padding: 0;
+}
+
+             /********************************************HEADER***************************************/
+
+header{
+	width: 100%;
+	height: 150px;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+	background-image: url(https://c1.wallpaperflare.com/preview/950/499/669/background-texture-structure-wood.jpg);
+	position: fixed;
+}
+
+header h1{
+	display: flex;
+	justify-content: center;
+	font-family: 'Julius Sans One';
+	font-size: 35px;
+	margin-bottom: 10px;
+	color: black;
+}
+
+header h2{
+	display: flex;
+	justify-content: center;
+	font-family: 'Julius Sans One';
+	color: black;
+}
+
+abbr {
+    border: none;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    letter-spacing: 0.01em;
+}
+                           
+
+             /********************************************INTRO*************************************/
+
+
+.intro{
+	margin-top: 150px;
+}
+
+.summary{
+	padding-top: 20px;
+	font-family:  'Libre Baskerville', sans-serif;
+}
+
+.summary, .preamble {
+    width: 80%;
+    margin: 0 auto;
+}
+
+p, li {
+    font-size: 1.2em;
+}
+
+p {
+    margin: 0.75em 0;
+    line-height: 2;
+}
+
+.intro a, .intro a:visited {
+    color: #809b7e;
+    font-family: 'Julius Sans One', sans-serif;
+    text-transform: uppercase;
+}
+
+
+            /**************************************PREAMBLE*************************************/
+
+h3 {
+    margin: 2em 0 0 0;
+	color: #809b7e;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1.8em;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+a {
+    color: rgb(80, 80, 51);
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+    text-decoration: none;
+}
+
+            /********************************************SUPORTING**********************************/
+
+.supporting h3, .supporting p {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+          /********************************************CONTENTIFO*************************************/
+.requirements p:last-child {
+	width: auto;
+	padding: 1em 12%;
+	margin: 0;
+	color: rgba(255, 255, 255, 0.4);
+	background: rgb(87, 161, 87);
+	font-size: 2em;
+	font-style: italic;
+	text-align: center;
+}
+
+          /********************************************FOOTER*************************************/
+
+footer {
+    text-align: center;
+	margin-top: 20px;
+}
+
+footer a:link, footer a:visited {
+    margin-right: 20px;
+}
+
+a:link {
+    font-weight: bold;
+    text-decoration: none;
+	color: #809b7e;
+}
+
+          /********************************************SIDEBAR*************************************/
+
+nav ul{
+	list-style: none;
+	padding: 0px;
+}
+
+ul{
+	padding: 0px;
+}
+
+.wrapper{
+	display: flex;
+	justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+	padding-top: 50px;
+}
+
+.design-selection{
+	margin-right: 60px;
+}
+
+.design-archives{
+	margin-right: 60px;
+}
+
+.view-css{
+	list-style-type: none;
+	padding: 0px;
+}
+
+.css-resources{
+	list-style-type: none;
+}
+
+.zen-faq{
+	list-style-type: none;
+}
+
+.zen-submit{
+	list-style-type: none;
+}
+
+.zen-translations{
+	list-style-type: none;
+}
+            /********************************************FONTS*************************************/
+
+@font-face {
+	font-family: 'Julius Sans One';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.gstatic.com/s/juliussansone/v9/1Pt2g8TAX_SGgBGUi0tGOYEga5WOwnsX.woff2) format('woff2');
+}
+
+  @font-face {
+	font-family: 'Julius Sans One';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.gstatic.com/s/juliussansone/v9/1Pt2g8TAX_SGgBGUi0tGOYEga5WOwnsX.woff2) format('woff2');
+}
+  @font-face {
+	font-family: 'Libre Baskerville';
+	font-style: italic;
+	font-weight: 400;
+	src: url(https://fonts.gstatic.com/s/librebaskerville/v9/kmKhZrc3Hgbbcjq75U4uslyuy4kn0qNcWx8QDP2V.woff2) format('woff2');
+}
+  @font-face {
+	font-family: 'Libre Baskerville';
+	font-style: italic;
+	font-weight: 400;
+	src: url(https://fonts.gstatic.com/s/librebaskerville/v9/kmKhZrc3Hgbbcjq75U4uslyuy4kn0qNcWxEQDA.woff2) format('woff2');
+}
+  @font-face {
+	font-family: 'Libre Baskerville';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.gstatic.com/s/librebaskerville/v9/kmKnZrc3Hgbbcjq75U4uslyuy4kn0qNXaxMICA.woff2) format('woff2');
+} 
+   @font-face {
+	font-family: 'Libre Baskerville';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.gstatic.com/s/librebaskerville/v9/kmKnZrc3Hgbbcjq75U4uslyuy4kn0qNZaxM.woff2) format('woff2');
+}
